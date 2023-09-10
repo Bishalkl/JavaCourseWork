@@ -1,13 +1,16 @@
-public class Variables {
+import java.util.Scanner;
+
+public class Variables{
     public static void main(String[] args) {
-        //Test
-        System.out.println("variable");
-        
-        // Variable
-        int a = 12;
-        int b = 13;
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b  = sc.nextInt();
 
-        String c= "bishal"
+        int multi = a * b;
+        int sub = a - b;
 
+        int ans = multi / sub;
+
+        System.out.println(ans);
     }
 }
