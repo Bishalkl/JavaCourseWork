@@ -1,30 +1,8 @@
 import java.util.Scanner;
-public class Variables{
+public class Exercise{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
         int d = sc.nextInt();
-        
-        if (c == 1){
-            int sum = a + b;
-            System.out.println(sum);
-        }else if(c == 2){
-            int sub = a - c;
-            System.out.println(sub);
-        }else if(c == 3){
-            int multi= a * c;
-            System.out.println(multi);
-        }else if(c == 4){
-            int divi = a / b;
-            System.out.println(divi);
-        }else if(c == 5){
-            int mod = a % b;
-            System.out.println(mod);
-        }else{
-            System.out.println("Invalid input");
-        }
 
         switch(d){
             case 1 : System.out.println("January");
@@ -65,10 +43,10 @@ public class Variables{
 
             default: System.out.println("Invaild Input");
 
+            sc.close();
+
             
         }
-        
-        sc.close();
-       
+
     }
 }
