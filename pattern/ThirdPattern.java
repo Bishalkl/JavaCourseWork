@@ -13,6 +13,7 @@ public class ThirdPattern {
             for(int k=1; k<=i; k++){
                 System.out.print("*");
             }
+            //decrement of r and printing new line 
             r--;
             System.out.println();
         }
