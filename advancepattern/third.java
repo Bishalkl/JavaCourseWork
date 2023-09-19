@@ -6,7 +6,7 @@ public class third {
         // outer loop for row
         for(int i=1; i<=5; i++){
             // inner loop for space loop 
-            for(int j=5; j>=i; j--){
+            for(int j=4; j>=i; j--){
                 System.out.print(" ");
             }
 
