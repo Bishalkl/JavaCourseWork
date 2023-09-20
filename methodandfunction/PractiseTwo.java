@@ -5,8 +5,7 @@ public class PractiseTwo {
 
     // declaring the function for product operaction
     public static int productOperation(int a, int b){
-        int prod = a * b;
-        return prod;
+        return a * b;
     }
 
     public static void main(String[] args) {
@@ -15,8 +14,7 @@ public class PractiseTwo {
         int b = sc.nextInt();
 
         // calling the function
-        int prod = productOperation(a, b);
-        System.out.println("The product of two numbers is "+ prod);
+        System.out.println("The product of two numbers is "+ productOperation(a, b));
         sc.close();
     }
 }
