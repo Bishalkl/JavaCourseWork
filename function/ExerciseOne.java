@@ -28,7 +28,8 @@ public class ExerciseOne {
         }else{
             System.out.println("it is not a prime number");
         }
-
+        // closing the scanner 
+        sc.close();
     }
 
 }
