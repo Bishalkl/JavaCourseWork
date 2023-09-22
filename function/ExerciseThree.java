@@ -6,12 +6,13 @@ public class ExerciseThree {
     public static void tableOperation(int n){
         
         // for loop create a table
+
         for(int i =1; i<=10; i++){
             int product =  n * i;
-            System.out.println(n + " * " + i + " = " + product );
+            System.out.printf("%d * %d = %d%n",n, i, product); // using string format to print it in clean and better way. Likely, %n for next line and %d for integer
         }
-        // just return void
-        return;
+
+        return; // just return void
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,14 +22,11 @@ public class ExerciseThree {
 
         // condition to check number is suitable or not
         if( n >=1){
-
-            //  callint the function
-            tableOperation(n);
+            tableOperation(n); //  calling the function
         }else{
             System.out.println("invalid number!!!");
         }
 
-        // closing the scanner
-        sc.close();
+        sc.close();  //  closing the scanner
     }
 }
